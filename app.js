@@ -1,25 +1,4 @@
-// // //functions tht keeps running
-// function time(){
-//     console.log("running..")
-// }
-// setInterval(time,1000)
 
-// //function tht runs one time after given time
-// function timeOut(){
-//     console.log("running...")
-// }
-// setTimeout(timeOut,3000)
-
-// var count= 0;
-// var interval; 
-// interval = setInterval(function(){
-//     count++
-//     console.log(count)
-// },1000)
-
-// setTimeout(function(){
-//     clearInterval(interval)
-// },5000);
 
 // // stop watch starts
 var min = 0;
