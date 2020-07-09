@@ -1,0 +1,84 @@
+body{
+   background: black; 
+}
+h1{
+    color:#fff;
+    text-align: center;
+     
+}
+
+.time > h1{
+    /* display: inline-block; */
+    color:#fff;
+    font-size: 2rem;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+.main{
+    text-align: center;
+    align-items: center; 
+    position: relative;
+    height: 200px;
+    top: 10%;
+    left: 35%;
+    width: 30%;
+    background: rgb(92,93,199);
+    background: linear-gradient(165deg, rgba(92,93,199,1) 14%, rgba(126,17,228,1) 58%); }
+.btns, .time{
+    padding-left: 23%;
+    width: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+div > button{
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: 5px 10px 18px #888888;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    width: 55px;
+    cursor: pointer;
+}
+ /* Media queiries */
+
+@media only screen and (max-width: 1366px){
+    .main{
+        width: 50%;
+        left: 25%;
+    }
+ }
+@media only screen and (max-width: 1024px){
+    .main{
+        width: 60%;
+    }
+ }
+@media only screen and (max-width: 812px){
+    .main{
+        left: 0;
+        width: 100%;
+    }
+    .btns, .time{
+        padding-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 568px){
+    .btns, .time{
+        padding-left: 8% ;
+
+    }
+}
+@media only screen and (max-width: 823px){
+    .btns, .time{
+        padding-left: 20%;
+    }
+}
+@media only screen and (max-width: 640px){
+    .btns, .time{
+        padding-left: 15%;
+    }
+}
